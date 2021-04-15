@@ -1,0 +1,88 @@
+body {
+  background-attachment: fixed;
+  margin: 0%;
+}
+
+
+.perfilImg{
+  width: 125px;
+  height: 125px;
+  border: 2px solid black;
+  border-radius: 62.5px;
+  display: block;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+h1{
+  font-size: 25px;
+  font-family: 'Fira Code', monospace;
+  text-align: center;
+}
+
+h2{
+  font-size: 20px;
+  font-family: 'Fira Code', monospace;
+  text-align: center;
+}
+
+.presentation{
+  color: black;
+  margin: 30px auto;
+  width: 300px;
+  height: 21vh;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+  background-color: rgba(255, 255, 255, .15);  
+  border-radius: 15px;
+  overflow: hidden;
+  line-height: 25px;
+}
+
+
+
+p{
+  font-family: 'Fira Code', monospace;
+  text-align: left;
+  margin: 25px 15px;
+}
+
+.buttonList{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+a{
+  font-family: 'Fira Code', monospace;
+  border: 2px solid black;
+  background-color: white;
+  border-radius: 20px;
+  padding: 10px 0px;
+  font-size: 20px;
+  margin: 20px auto;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  outline: none;
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  background-color: black;
+  color: white;
+}
+
+i{
+  margin-top: 3px;
+  padding-right: 20px;
+}
+
+.quote{
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 24px;
+  font-style: italic;
+}
